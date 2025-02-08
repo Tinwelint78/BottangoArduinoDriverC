@@ -26,6 +26,6 @@ void receiveEvent ( int howMany )
 	{
 		int x = Wire.read();    // receive byte as an integer
 		Serial.println ( x );
-		BottangoCore::commandStreamProvider->startCommandStream ( x, false ); //starts playing an animation (and stops the current if any)
+		BottangoCore::commandStreamProvider->startCommandStream (x, (x == 2)); //starts playing an animation (and stops the current if any)
 	}
 }
