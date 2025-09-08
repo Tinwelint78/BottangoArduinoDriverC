@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="BottangoArduinoDriverC.ino" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="__vm\.BottangoArduinoDriverC.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -329,5 +326,6 @@
     <ClCompile Include="src\StatusLights.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BottangoArduinoDriverC.ino" />
   </ItemGroup>
 </Project>
